@@ -1,0 +1,4 @@
+﻿"doc_id,region,doc_type,pub_date,raw_text,revision_class,product_area,impact_label,hazard"
+"CPSC-2021-TRAC-01,US,Recall,12/5/21,""Recall of loader attachment due to pinch hazard; label update required for operators."",labeling,,labeling,pinch"
+"CPSC-2021-TRAC-01-dup,US,Recall,2021-12-05,""Recall of loader attachment due to pinch hazard. Requires updated safety labels."",labeling,,labeling,pinch"
+"CPSC-2022-GNSS-02,US,Recall,2022-11-09,""GNSS receiver overheating risk; firmware mitigation recommended"
