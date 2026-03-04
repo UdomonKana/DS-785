@@ -1,3 +1,10 @@
+# ISO dates, region codes, and example “before/after” table.
+# Inputs
+#      outputs/combined_after_missing_handling.csv
+
+# Outputs
+#      outputs/formatting_before_after_examples.csv
+#      outputs/combined_after_formatting.csv
 
 # 6) Data Cleaning & Preprocessing – Formatting & Consistency (Self-contained & resilient, with directory creation)
 import os, re, json, unicodedata
@@ -136,4 +143,5 @@ print('Input used:', source_used)
 print('Wrote:', OUTPUT_PATH)
 print('Wrote:', BEFORE_AFTER)
 print('Wrote:', SUMMARY_PATH)
+
 
