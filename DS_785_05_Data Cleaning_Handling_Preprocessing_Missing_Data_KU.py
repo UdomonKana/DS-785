@@ -1,3 +1,8 @@
+# Impute product_area from domain patterns in text (no synthetic labels).
+# Inputs
+#     outputs/combined_corpus_integrated.csv
+# Outputs
+#     outputs/combined_after_missing_handling.csv
 
 import pandas as pd
 
@@ -17,3 +22,4 @@ mask = (corpus['product_area'] == 'unknown')
 corpus.loc[mask, 'product_area'] = corpus.loc[mask, 'raw_text'].apply(infer_product_area)
 
 corpus.to_csv('outputs/combined_after_missing_handling.csv', index=False)
+
