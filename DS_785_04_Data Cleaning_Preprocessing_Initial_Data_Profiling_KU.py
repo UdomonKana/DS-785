@@ -1,6 +1,9 @@
 # Quick structure, missingness, label distribution, and text lengths.
-# Inputst
+# Inputs
 #     outputs/combined_corpus_integrated.csv
+# Outputs
+#     outputs/profile_summary.json
+#     outputs/impact_distribution_all.png
 
 import json, pandas as pd, matplotlib.pyplot as plt
 
@@ -22,4 +25,5 @@ corpus['impact_label'].value_counts().plot(kind='bar', color=['#2e7d32','#0277bd
 plt.title('Impact Label Distribution (All)')
 plt.xlabel('Impact Label'); plt.ylabel('Count'); plt.tight_layout()
 plt.savefig('outputs/impact_distribution_all.png', dpi=160); plt.close()
+
 
