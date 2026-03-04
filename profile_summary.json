@@ -1,0 +1,42 @@
+
+{
+  "source_used": "outputs/combined_corpus_integrated.csv",
+  "n_rows": 9,
+  "n_cols": 11,
+  "columns": [
+    "doc_id",
+    "region",
+    "doc_type",
+    "pub_date_iso",
+    "raw_text",
+    "text_length",
+    "revision_class",
+    "product_area",
+    "impact_label",
+    "dataset_source",
+    "year"
+  ],
+  "regions": {
+    "US": 6,
+    "EU": 3
+  },
+  "doc_types": {
+    "Rulemaking": 3,
+    "Recall": 3,
+    "StandardRevision": 3
+  },
+  "impact_distribution": {
+    "labeling": 4,
+    "hardware": 3,
+    "manual": 2
+  },
+  "missing_by_col": {
+    "doc_id": 0,
+    "region": 0,
+    "doc_type": 0,
+    "pub_date_iso": 0,
+    "raw_text": 0,
+    "text_length": 0,
+    "revision_class": 0,
+    "product_area": 0,
+   
