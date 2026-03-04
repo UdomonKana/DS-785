@@ -1,0 +1,4 @@
+doc_id,region,doc_type,pub_date_iso,raw_text,text_length,revision_class,product_area,impact_label,dataset_source,year
+A,US,Rulemaking,1/1/2021,Label update needed,20,labeling,labeling,labeling,FCC,2021
+B,EU,Recall,5/3/2022,Hardware failure GNSS,22,technical,hardware,hardware,CPSC,2022
+C,US,StandardRevision,12/12/2020,Manual revision required,25,administrative,manual,manual,ETSI,2020
