@@ -1,3 +1,8 @@
+# Read heterogeneous sources (simulated FCC/CPSC/ETSI), normalize region and dates, and write a combined corpus.
+# Inputs
+#      1) outputs/source_fcc_notices.csv
+#      2) outputs/source_cpsc_recalls.csv
+#      3) outputs/source_etsi_meta.csv
 
 import pandas as pd, numpy as np
 from datetime import datetime
@@ -41,3 +46,4 @@ corpus_cols = ['doc_id','region','doc_type','pub_date_iso','raw_text','text_leng
                'revision_class','product_area','impact_label','dataset_source']
 corpus = pd.concat([fcc[corpus_cols], cpsc[corpus_cols], etsi[corpus_cols]], ignore_index=True)
 corpus.to_csv('outputs/combined_corpus_raw.csv', index=False)
+
