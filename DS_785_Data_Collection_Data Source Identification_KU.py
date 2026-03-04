@@ -1,3 +1,5 @@
+# Data Collection – Data Source Identification
+# Inputs (No external inputs; this builds a small catalog.)
 
 import pandas as pd
 
@@ -22,3 +24,4 @@ rows = [
 ]
 cat = pd.DataFrame(rows)
 cat.to_csv('outputs/data_sources_catalog.csv', index=False)
+
