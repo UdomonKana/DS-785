@@ -1,3 +1,12 @@
+# Stratified train/val/test split with small data safeguards (ensures ≥1 sample/class in each split).
+
+# Inputs
+#      outputs/combined_after_imbalance_handling.csv
+
+# Outputs
+#       outputs/split_train.csv
+#       outputs/split_val.csv
+#       outputs/split_test.csv
 
 # 12) Data Cleaning & Preprocessing – Data Splitting (Complete & Robust)
 # Goal: Create train/val/test splits with stratification by 'impact_label'.
@@ -138,3 +147,4 @@ print('Data Splitting complete.')
 print('Input used:', source_used)
 print('Wrote: outputs/split_train.csv, outputs/split_val.csv, outputs/split_test.csv')
 print('Wrote: outputs/split_summary.json, outputs/class_proportions_by_split.png')
+
