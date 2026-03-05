@@ -1,3 +1,12 @@
+# Duplicate removal by doc_id and text‑length outliers.
+# Inputs
+#      outputs/combined_after_formatting.csv
+# Outputs
+#      outputs/outliers_report.json
+#      outputs/text_length_hist.png
+#      outputs/combined_after_outlier_handling.csv
+
+
 
 import json, pandas as pd, matplotlib.pyplot as plt
 
@@ -20,3 +29,4 @@ plt.title('Text Length Histogram'); plt.xlabel('Text Length (chars)'); plt.ylabe
 plt.tight_layout(); plt.savefig('outputs/text_length_hist.png', dpi=160); plt.close()
 
 corpus.to_csv('outputs/combined_after_outlier_handling.csv', index=False)
+
