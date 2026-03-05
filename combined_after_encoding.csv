@@ -1,0 +1,4 @@
+doc_id,product_area,impact_label,raw_text,pub_date_iso,text_length,year,product_area_ord,region_EU,region_US,doctype_Recall,doctype_Rulemaking,doctype_StandardRevision,rev_administrative,rev_labeling,rev_technical
+A,labeling,labeling,Label update needed,2021-01-01,19,2021,0,False,True,False,True,False,False,True,False
+B,hardware,hardware,Hardware failure GNSS,2022-05-03,21,2022,3,True,False,True,False,False,False,False,True
+C,manual,manual,Manual revision required,2020-12-12,24,2020,1,False,True,False,False,True,True,False,False
