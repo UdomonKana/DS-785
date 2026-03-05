@@ -1,0 +1,7 @@
+doc_id,impact_label,raw_text,product_area,region,doc_type
+A,hardware,x,hardware,US,Rulemaking
+A,hardware,x,hardware,US,Rulemaking
+D,manual,w,manual,EU,StandardRevision
+B,labeling,y,labeling,EU,Recall
+D,manual,w,manual,EU,StandardRevision
+C,labeling,z,labeling,US,Rulemaking
