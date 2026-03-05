@@ -1,3 +1,9 @@
+#  z‑score standardization for numeric metadata (e.g., text_length, year).
+# Inputs
+#       outputs/combined_after_variable_reduction.csv
+# Outputs
+#       outputs/scaled_numeric_features.csv
+#       outputs/combined_after_scaling.csv
 
 # 9) Data Cleaning & Preprocessing – Scaling & Normalization (Complete & Robust)
 # Reads prior outputs, scales numeric features with multiple strategies, and writes plots & summaries.
@@ -111,3 +117,4 @@ print('Wrote: outputs/combined_after_scaling.csv')
 print('Wrote: outputs/scaled_feature_matrix.csv')
 print('Wrote: outputs/scaling_hist_pre.png, outputs/scaling_hist_post.png')
 print('Wrote: outputs/scaling_normalization_summary.json')
+
