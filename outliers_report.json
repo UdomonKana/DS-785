@@ -1,0 +1,8 @@
+{
+  "source_used": "outputs/combined_after_formatting.csv",
+  "rows_before": 2,
+  "rows_after_dedup": 2,
+  "q05_text_length": 20.05,
+  "q95_text_length": 20.95,
+  "n_text_outliers": 2
+}

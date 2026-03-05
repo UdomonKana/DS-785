@@ -1,0 +1,3 @@
+doc_id,region,doc_type,pub_date_iso,raw_text,revision_class,product_area,impact_label,dataset_source,text_length,year,is_text_outlier
+A,US,Rulemaking,2021-01-15,Label update needed,labeling,unknown,labeling,FCC,20,2021,True
+B,EU,Standard Revision,2023-02-14,EMC update for modules,technical,hardware,hardware,ETSI,21,2023,True
