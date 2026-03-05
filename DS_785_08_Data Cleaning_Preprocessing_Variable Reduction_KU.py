@@ -1,3 +1,9 @@
+# Drop noisy/non‑predictive fields (e.g., HTML style, source URL) to prevent leakage and noise.
+# Inputs
+#      outputs/combined_after_outlier_handling.csv (we re‑introduce dummy columns to demonstrate removal)
+# Outputs
+#      outputs/variable_reduction_dropped.csv
+#      outputs/combined_after_variable_reduction.csv
 
 import pandas as pd
 
@@ -8,3 +14,4 @@ reduced = corpus.drop(columns=['html_style','source_url'])
 
 pd.DataFrame({'dropped_variables':['html_style','source_url']}).to_csv('outputs/variable_reduction_dropped.csv', index=False)
 reduced.to_csv('outputs/combined_after_variable_reduction.csv', index=False)
+
